@@ -111,8 +111,8 @@ app.get('/login/google/return',
 app.get('/profile',
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
-    console.log(req.user);
     res.json({status: "logged in",
+              id: req.user.id,
               display_name: req.user.displayName,
               email: req.user.emails[0].value,
               gender: req.user.gender});
