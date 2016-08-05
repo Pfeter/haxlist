@@ -19,7 +19,7 @@ passport.use(new GoogleStrategy({
     clientSecret: process.env.GOOGLE_SECRET,
     callbackURL: "http://localhost:3000/login/google/return"
   },
-  function(accessToken, refreshToken, profile, cb) {
+  function(request, accessToken, refreshToken, profile, cb) {
     return cb(null, profile);
   }));
 
@@ -92,31 +92,39 @@ app.get('/test', function(req, res) {
   ]);
 });
 
-app.get('/db', function(req, res) {
-  res.json(database);
+app.get('/katas', function(req, res) {
+  res.json(database.slice(0, 10));
 })
 
 app.get('/login/google',
   passport.authenticate('google', { scope:
   	[ 'https://www.googleapis.com/auth/plus.login',
-  	, 'https://www.googleapis.com/auth/plus.profile.emails.read' ] }));
+    'https://www.googleapis.com/auth/plus.profile.emails.read' ] })
+);
 
 app.get('/login/google/return',
   passport.authenticate('google', { failureRedirect: '/login' }),
   function(req, res) {
-    res.redirect('/');
+    res.redirect('/profile');
   });
 
 app.get('/profile',
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
-    res.render('profile', { user: req.user });
+    console.log(req.user);
+    res.json({status: "logged in",
+              display_name: req.user.displayName,
+              email: req.user.emails[0].value,
+              gender: req.user.gender});
+    return;
   });
 
 app.get('/logout',
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
-    res.render('profile', { user: req.user });
+    req.session.destroy(function (err) {
+     res.status(200).redirect('/landing');
+   });
   });
 
 app.listen(port);
