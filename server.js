@@ -38,15 +38,15 @@ app.use(express.static(__dirname + '/client', {
 app.get('/test', function(req, res) {
   res.json([
     {
-      hacker: 'pocok',
+      name: 'pocok',
       task: 'backend guru'
     },
     {
-      hacker: 'petya',
+      name: 'petya',
       task: 'dataminer'
     },
     {
-      hacker: 'peet',
+      name: 'peet',
       task: 'visual wizard'
     }
   ]);
