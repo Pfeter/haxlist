@@ -1,67 +1,17 @@
 <!DOCTYPE html>
-<html ng-app="HaxList">
+<html ng-app="Landing">
   <head>
-    <title>HaxList</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.js"></script>
-    <script src="../app/app.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>HaxList</title>
   </head>
-  <body ng-controller="MainController">
+  <body ng-controller="LoginController">
     <div id="indexhead" class="container-fluid">
       <header ng-include="'header.html'"></header>
     </div>
-
-    <div id="maincontent" class="row row-eq-height">
-
-      <div id="codersite" class="container-fluid col-xs-6">
-        <h2>codersite block</h2>
-        <table class="table table-condensed table-hover">
-          <thead class="thead-inverse">
-            <tr>
-              <th>name</th>
-              <th>task</th>
-            </tr>
-          </thead>
-          <tbody class="hacker-container">
-            <tr ng-repeat="hacker in hackers">
-              <td class="name"> {{hacker.name}} </td>
-              <td class="task"> {{hacker.task}} </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div id="rightpanel" class="container-fluid col-xs-6">
-
-        <div id="stackexchange" class="container-fluid col-xs-12">
-          <h2>stackexchange block</h2>
-        </div>
-
-        <div id="relatedsite" class="container-fluid col-xs-12">
-          <h2>related site block</h2>
-        </div>
-
-      </div>
+    <div id="landing"  background-image="/img/bg-1.png">
+      <h1>HaxList</h1>
+      <h3>Improve your coding skills with multiple sources!</h3>
+      <li id="loginbutton" class="nav-item"><button class="btn btn-info btn-lg" type="login" name="login" ng-click="logIn();">Login</button></li>
     </div>
-
-    <div id="youtubethumb" class="container-fluid col-xs-12">
-      <h2>youtube thumbnails</h2>
-    </div>
-
-    <br>
-
-    <div id="footerbar" class="container-fluid col-xs-12">
-      <br>
-      <footer class="footer text-center">
-        <h4>awsomesauce haxlist app</h4>
-        <h5>stone code design</h5>
-      </footer>
-    </div>
-
   </body>
 </html>

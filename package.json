@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Pfeter/haxlist#readme",
   "dependencies": {
     "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
     "babel-eslint": "^6.1.2",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
