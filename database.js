@@ -12,7 +12,7 @@ var exports = module.exports = (function() {
       }
 
       obj = JSON.parse(data);
-    });
+    })
   }
 
 })();
