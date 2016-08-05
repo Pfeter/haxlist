@@ -8,7 +8,11 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const compression = require('compression');
 const passport = require('passport');
+const session = require('express-session');
+const RedisStore = require('connect-redis')(session);
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
+const loginCheck = require('connect-ensure-login');
+const database = JSON.parse(fs.readFileSync('datas/katas.json', 'utf8'));
 
 passport.use(new GoogleStrategy({
     clientID: process.env.GOOGLE_ID,
@@ -16,11 +20,6 @@ passport.use(new GoogleStrategy({
     callbackURL: "http://localhost:3000/login/google/return"
   },
   function(accessToken, refreshToken, profile, cb) {
-    // In this example, the user's Google profile is supplied as the user
-    // record.  In a production-quality application, the Facebook profile should
-    // be associated with a user record in the application's database, which
-    // allows for account linking and authentication with other identity
-    // providers.
     return cb(null, profile);
   }));
 
@@ -55,7 +54,14 @@ function shouldCompress(req, res) {
 app.use(require('cookie-parser')());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(require('express-session')({ secret: process.env.SESSION_SECRET, resave: true, saveUninitialized: true }));
+app.use(session({
+  store: new RedisStore({
+    url: process.env.REDIS_URL
+  }),
+  secret: process.env.SESSION_SECRET,
+  resave: true,
+  saveUninitialized: true
+}))
 app.use(compression({filter: shouldCompress}));
 app.use(express.static(__dirname + '/client', {
   maxage: '48h'
@@ -63,8 +69,10 @@ app.use(express.static(__dirname + '/client', {
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get('/', function(req, res){
-  res.json({data: req} || {"status": "test"})
+app.get('/',
+  loginCheck.ensureLoggedIn('/login/google'),
+  function(req, res){
+  res.json({data: req.user} || {"status": "test"})
 })
 
 app.get('/test', function(req, res) {
@@ -84,8 +92,14 @@ app.get('/test', function(req, res) {
   ]);
 });
 
+app.get('/db', function(req, res) {
+  res.json(database);
+})
+
 app.get('/login/google',
-  passport.authenticate('google', { scope: ['profile', 'email'] }));
+  passport.authenticate('google', { scope:
+  	[ 'https://www.googleapis.com/auth/plus.login',
+  	, 'https://www.googleapis.com/auth/plus.profile.emails.read' ] }));
 
 app.get('/login/google/return',
   passport.authenticate('google', { failureRedirect: '/login' }),
@@ -94,7 +108,13 @@ app.get('/login/google/return',
   });
 
 app.get('/profile',
-  require('connect-ensure-login').ensureLoggedIn(),
+  loginCheck.ensureLoggedIn('/login/google'),
+  function(req, res){
+    res.render('profile', { user: req.user });
+  });
+
+app.get('/logout',
+  loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
     res.render('profile', { user: req.user });
   });
