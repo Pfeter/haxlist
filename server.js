@@ -15,10 +15,10 @@ const loginCheck = require('connect-ensure-login');
 const database = JSON.parse(fs.readFileSync('datas/katas.json', 'utf8'));
 
 passport.use(new GoogleStrategy({
-    clientID: process.env.GOOGLE_ID,
-    clientSecret: process.env.GOOGLE_SECRET,
-    callbackURL: "http://localhost:3000/login/google/return"
-  },
+  clientID: process.env.GOOGLE_ID,
+  clientSecret: process.env.GOOGLE_SECRET,
+  callbackURL: 'http://localhost:3000/login/google/return'
+},
   function(request, accessToken, refreshToken, profile, cb) {
     return cb(null, profile);
   }));
@@ -34,22 +34,20 @@ passport.deserializeUser(function(obj, cb) {
 const app = express();
 const port = process.env.PORT || 3000;
 
-
-
-if (process.env.ENV === "DEVELOPMENT") {
-  const logger = require("./logger");
-  fs.existsSync("logs") || fs.mkdirSync("logs");
+if (process.env.ENV === 'DEVELOPMENT') {
+  const logger = require('./logger');
+  fs.existsSync('logs') || fs.mkdirSync('logs');
   const accessLogStream = fs.createWriteStream(__dirname + '/logs/access.log', {flags: 'a'});
   logger.debug("Overriding 'Express' logger");
-  app.use(morgan('combined', { "stream": logger.stream }));
+  app.use(morgan('combined', { 'stream': logger.stream }));
 }
 
 function shouldCompress(req, res) {
   if (req.headers['x-no-compression']) {
-    return false
+    return false;
   }
-  return compression.filter(req, res)
-};
+  return compression.filter(req, res);
+}
 
 app.use(require('cookie-parser')());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -61,11 +59,11 @@ app.use(session({
   secret: process.env.SESSION_SECRET,
   resave: true,
   saveUninitialized: true
-}))
+}));
 app.use(compression({filter: shouldCompress}));
 app.use(express.static(__dirname + '/client', {
   maxage: '48h'
-}))
+}));
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -94,11 +92,11 @@ app.get('/test', function(req, res) {
 
 app.get('/katas', function(req, res) {
   res.json(database.slice(0, 10));
-})
+});
 
 app.get('/login/google',
   passport.authenticate('google', { scope:
-  	[ 'https://www.googleapis.com/auth/plus.login',
+  [ 'https://www.googleapis.com/auth/plus.login',
     'https://www.googleapis.com/auth/plus.profile.emails.read' ] })
 );
 
@@ -110,8 +108,8 @@ app.get('/login/google/return',
 
 app.get('/profile',
   loginCheck.ensureLoggedIn('/login/google'),
-  function(req, res){
-    res.json({status: "logged in",
+  function(req, res) {
+    res.json({status: 'logged in',
               id: req.user.id,
               display_name: req.user.displayName,
               email: req.user.emails[0].value,
@@ -120,12 +118,19 @@ app.get('/profile',
   });
 
 app.get('/logout',
+<<<<<<< HEAD
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
     req.session.destroy(function (err) {
      res.redirect('/login');
    });
+=======
+  function(req, res) {
+    req.session.destroy(function(err) {
+      res.status(200).redirect('/lander');
+    });
+>>>>>>> fbd40629fb1dcd4fb19939d86bf3db96cb9b3224
   });
 
 app.listen(port);
-console.log("listening on " + port + "!");
+console.log('listening on ' + port + '!');
