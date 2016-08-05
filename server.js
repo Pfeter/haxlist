@@ -72,7 +72,7 @@ app.use(passport.session());
 app.get('/',
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
-  res.json({data: req.user} || {"status": "test"})
+    res.redirect('/lander');
 })
 
 app.get('/test', function(req, res) {
@@ -111,7 +111,8 @@ app.get('/login/google/return',
 app.get('/profile',
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
-    res.json({status: "logged in",
+    res.json({key: req.session,
+              status: "logged in",
               id: req.user.id,
               display_name: req.user.displayName,
               email: req.user.emails[0].value,
@@ -123,7 +124,7 @@ app.get('/logout',
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
     req.session.destroy(function (err) {
-     res.status(200).redirect('/landing');
+     res.status(200).redirect('/lander');
    });
   });
 
