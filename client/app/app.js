@@ -1,11 +1,25 @@
-var HaxList = angular.module('HaxList', ['ngAnimate']);
+var HaxList = angular.module('HaxList', ['ngAnimate', 'ngRoute']);
+
+HaxList.config(['$routeProvider', function($routeProvider) {
+  $routeProvider
+    .when('/training.html', {
+      templateUrl: 'training.html',
+      controller: 'mealController'
+    })
+    .when('/profile', {
+      templateUrl: 'profile.html',
+      controller: 'mealController'
+    }).otherwise({
+      redirectTo: '/login'
+    });
+}]);
 
 HaxList.factory('Config', function() {
   return {
     testUrl: 'http://localhost:3000/test',
     loginUrl: 'http://localhost:3000/login/google',
     baseUrl: 'http://localhost:3000/',
-    landingUrl: 'http://localhost:3000/haxlist'
+    landingUrl: 'http://localhost:3000/landing.html'
   };
 });
 
@@ -28,7 +42,7 @@ HaxList.controller('MainController', function($scope, $http, $location, HaxServi
   };
 
   $scope.logOut = function() {
-    window.location = Config.baseUrl;
+    window.location = Config.landingUrl;
   };
 
   HaxService.connectServer().success(function(data) {
