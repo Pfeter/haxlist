@@ -1,0 +1,886 @@
+[
+  {
+    "datas": {
+      "kataname": "String Pyramid",
+      "kataid": "5797d1a9c38ec2de1f00017b",
+      "kyu": "6 kyu",
+      "katalink": "/kata/string-pyramid"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Basic%20Language%20Features","name": "Basic Language Features"},
+      {"link": "?tags=Mathematics","name": "Mathematics"},
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Numbers","name": "Numbers"},
+      {"link": "?tags=Strings","name": "Strings"}
+    ],
+    "proglanguages": [
+      {"language": "cpp", "cpplink": "/kata/string-pyramid/train/cpp"},
+      {"language": "csharp", "link": "/kata/string-pyramid/train/csharp"},
+      {"language": "javascript", "link": "/kata/string-pyramid/train/javascript"},
+      {"language": "python", "link": "/kata/string-pyramid/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Big integers sum",
+      "kataid": "568f058bb74d73512500003f",
+      "kyu": "6 kyu",
+      "katalink": "/kata/big-integers-sum"
+    },
+    "keywords": [
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Mathematics","name": "Mathematics"}
+    ],
+    "proglanguages": [
+      {"language": "javascript", "link": "/kata/big-integers-sum/train/javascript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Large Factorials",
+      "kataid": "557f6437bf8dcdd135000010",
+      "kyu": "4 kyu",
+      "katalink": "/kata/large-factorials"
+    },
+    "keywords": [
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Big%20Integers","name": "Big Integers"},
+      {"link": "?tags=Integers","name": "Integers"}
+    ],
+    "proglanguages": [
+      {"language": "javascript", "link": "/kata/large-factorials/train/javascript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Powers of 2",
+      "kataid": "57a083a57cb1f31db7000028",
+      "kyu": "8 kyu",
+      "katalink": "/kata/powers-of-2"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "haskell", "link": "/kata/powers-of-2/train/haskell"},
+      {"language": "python", "link": "/kata/powers-of-2/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Scaling Squared Strings",
+      "kataid": "56ed20a2c4e5d69155000301",
+      "kyu": "7 kyu",
+      "katalink": "/kata/scaling-squared-strings"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/scaling-squared-strings/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/scaling-squared-strings/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/scaling-squared-strings/train/cpp"},
+      {"language": "csharp", "link": "/kata/scaling-squared-strings/train/csharp"},
+      {"language": "haskell", "link": "/kata/scaling-squared-strings/train/haskell"},
+      {"language": "java", "link": "/kata/scaling-squared-strings/train/java"},
+      {"language": "javascript", "link": "/kata/scaling-squared-strings/train/javascript"},
+      {"language": "php", "link": "/kata/scaling-squared-strings/train/php"},
+      {"language": "python", "link": "/kata/scaling-squared-strings/train/python"},
+      {"language": "ruby", "link": "/kata/scaling-squared-strings/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Two fighters, one winner.",
+      "kataid": "577bd8d4ae2807c64b00045b",
+      "kyu": "7 kyu",
+      "katalink": "/kata/two-fighters-one-winner"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Games","name": "Games"},
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Classes","name": "Classes"},
+      {"link": "?tags=Basic%20Language%20Features","name": "Basic Language Features"},
+      {"link": "?tags=Object-oriented%20Programming","name": "Object-oriented Programming"}
+    ],
+    "proglanguages": [
+      {"language": "csharp", "link": "/kata/two-fighters-one-winner/train/csharp"},
+      {"language": "java", "link": "/kata/two-fighters-one-winner/train/java"},
+      {"language": "javascript", "link": "/kata/two-fighters-one-winner/train/javascript"},
+      {"language": "python", "link": "/kata/two-fighters-one-winner/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Moves in squared strings (IV)",
+      "kataid": "56dbf59b0a10feb08c000227",
+      "kyu": "6 kyu",
+      "katalink": "/kata/moves-in-squared-strings-iv"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-iv/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-iv/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-iv/train/cpp"},
+      {"language": "csharp", "link": "/kata/moves-in-squared-strings-iv/train/csharp"},
+      {"language": "haskell", "link": "/kata/moves-in-squared-strings-iv/train/haskell"},
+      {"language": "java", "link": "/kata/moves-in-squared-strings-iv/train/java"},
+      {"language": "javascript", "link": "/kata/moves-in-squared-strings-iv/train/javascript"},
+      {"language": "php", "link": "/kata/moves-in-squared-strings-iv/train/php"},
+      {"language": "python", "link": "/kata/moves-in-squared-strings-iv/train/python"},
+      {"language": "ruby", "link": "/kata/moves-in-squared-strings-iv/train/ruby"},
+      {"language": "typescript", "link": "/kata/moves-in-squared-strings-iv/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Moves in squared strings (III)",
+      "kataid": "56dbeec613c2f63be4000be6",
+      "kyu": "6 kyu",
+      "katalink": "/kata/moves-in-squared-strings-iii"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-iii/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-iii/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-iii/train/cpp"},
+      {"language": "csharp", "link": "/kata/moves-in-squared-strings-iii/train/csharp"},
+      {"language": "haskell", "link": "/kata/moves-in-squared-strings-iii/train/haskell"},
+      {"language": "java", "link": "/kata/moves-in-squared-strings-iii/train/java"},
+      {"language": "javascript", "link": "/kata/moves-in-squared-strings-iii/train/javascript"},
+      {"language": "php", "link": "/kata/moves-in-squared-strings-iii/train/php"},
+      {"language": "python", "link": "/kata/moves-in-squared-strings-iii/train/python"},
+      {"language": "ruby", "link": "/kata/moves-in-squared-strings-iii/train/ruby"},
+      {"language": "typescript", "link": "/kata/moves-in-squared-strings-iii/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Composing squared strings",
+      "kataid": "56f253dd75e340ff670002ac",
+      "kyu": "7 kyu",
+      "katalink": "/kata/composing-squared-strings"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/composing-squared-strings/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/composing-squared-strings/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/composing-squared-strings/train/cpp"},
+      {"language": "csharp", "link": "/kata/composing-squared-strings/train/csharp"},
+      {"language": "haskell", "link": "/kata/composing-squared-strings/train/haskell"},
+      {"language": "java", "link": "/kata/composing-squared-strings/train/java"},
+      {"language": "javascript", "link": "/kata/composing-squared-strings/train/javascript"},
+      {"language": "php", "link": "/kata/composing-squared-strings/train/php"},
+      {"language": "python", "link": "/kata/composing-squared-strings/train/python"},
+      {"language": "ruby", "link": "/kata/composing-squared-strings/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Product of Largest Pair",
+      "kataid": "5784c89be5553370e000061b",
+      "kyu": "7 kyu",
+      "katalink": "/kata/product-of-largest-pair"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Arrays","name": "Arrays"},
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Loops","name": "Loops"},
+      {"link": "?tags=Control%20Flow","name": "Control Flow"},
+      {"link": "?tags=Basic%20Language%20Features","name": "Basic Language Features"}
+    ],
+    "proglanguages": [
+      {"language": "javascript", "link": "/kata/product-of-largest-pair/train/javascript"},
+      {"language": "python", "link": "/kata/product-of-largest-pair/train/python"},
+      {"language": "ruby", "link": "/kata/product-of-largest-pair/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "What's the real floor?",
+      "kataid": "574b3b1599d8f897470018f6",
+      "kyu": "8 kyu",
+      "katalink": "/kata/whats-the-real-floor"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "coffeescript", "link": "/kata/whats-the-real-floor/train/coffeescript"},
+      {"language": "javascript", "link": "/kata/whats-the-real-floor/train/javascript"},
+      {"language": "python", "link": "/kata/whats-the-real-floor/train/python"},
+      {"language": "ruby", "link": "/kata/whats-the-real-floor/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Name That Number!",
+      "kataid": "579ba41ce298a73aaa000255",
+      "kyu": "7 kyu",
+      "katalink": "/kata/name-that-number"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "java", "link": "/kata/name-that-number/train/java"},
+      {"language": "javascript", "link": "/kata/name-that-number/train/javascript"},
+      {"language": "python", "link": "/kata/name-that-number/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "A Needle in the Haystack",
+      "kataid": "56676e8fabd2d1ff3000000c",
+      "kyu": "8 kyu",
+      "katalink": "/kata/a-needle-in-the-haystack"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Arrays","name": "Arrays"}
+    ],
+    "proglanguages": [
+      {"language": "csharp", "link": "/kata/a-needle-in-the-haystack/train/csharp"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/a-needle-in-the-haystack/train/coffeescript"},
+      {"language": "elixir", "link": "/kata/a-needle-in-the-haystack/train/elixir"},
+      {"language": "java", "link": "/kata/a-needle-in-the-haystack/train/java"},
+      {"language": "javascript", "link": "/kata/a-needle-in-the-haystack/train/javascript"},
+      {"language": "php", "link": "/kata/a-needle-in-the-haystack/train/php"},
+      {"language": "python", "link": "/kata/a-needle-in-the-haystack/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Calculate String Rotation",
+      "kataid": "5596f6e9529e9ab6fb000014",
+      "kyu": "6 kyu",
+      "katalink": "/kata/calculate-string-rotation"
+    },
+    "keywords": [
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Strings","name": "Strings"},
+      {"link": "?tags=Arrays","name": "Arrays"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/calculate-string-rotation/train/clojure"},
+      {"language": "csharp", "link": "/kata/calculate-string-rotation/train/csharp"},
+      {"language": "haskell", "link": "/kata/calculate-string-rotation/train/haskell"},
+      {"language": "java", "link": "/kata/calculate-string-rotation/train/java"},
+      {"language": "javascript", "link": "/kata/calculate-string-rotation/train/javascript"},
+      {"language": "python", "link": "/kata/calculate-string-rotation/train/python"},
+      {"language": "ruby", "link": "/kata/calculate-string-rotation/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Twice linear",
+      "kataid": "5672682212c8ecf83e000050",
+      "kyu": "5 kyu",
+      "katalink": "/kata/twice-linear"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/twice-linear/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/twice-linear/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/twice-linear/train/cpp"},
+      {"language": "csharp", "link": "/kata/twice-linear/train/csharp"},
+      {"language": "haskell", "link": "/kata/twice-linear/train/haskell"},
+      {"language": "java", "link": "/kata/twice-linear/train/java"},
+      {"language": "javascript", "link": "/kata/twice-linear/train/javascript"},
+      {"language": "php", "link": "/kata/twice-linear/train/php"},
+      {"language": "python", "link": "/kata/twice-linear/train/python"},
+      {"language": "ruby", "link": "/kata/twice-linear/train/ruby"},
+      {"language": "typescript", "link": "/kata/twice-linear/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Rotate for a Max",
+      "kataid": "56a4872cbb65f3a610000026",
+      "kyu": "7 kyu",
+      "katalink": "/kata/rotate-for-a-max"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/rotate-for-a-max/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/rotate-for-a-max/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/rotate-for-a-max/train/cpp"},
+      {"language": "csharp", "link": "/kata/rotate-for-a-max/train/csharp"},
+      {"language": "elixir", "link": "/kata/rotate-for-a-max/train/elixir"},
+      {"language": "haskell", "link": "/kata/rotate-for-a-max/train/haskell"},
+      {"language": "java", "link": "/kata/rotate-for-a-max/train/java"},
+      {"language": "javascript", "link": "/kata/rotate-for-a-max/train/javascript"},
+      {"language": "php", "link": "/kata/rotate-for-a-max/train/php"},
+      {"language": "python", "link": "/kata/rotate-for-a-max/train/python"},
+      {"language": "ruby", "link": "/kata/rotate-for-a-max/train/ruby"},
+      {"language": "typescript", "link": "/kata/rotate-for-a-max/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Consecutive strings",
+      "kataid": "56a5d994ac971f1ac500003e",
+      "kyu": "6 kyu",
+      "katalink": "/kata/consecutive-strings"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/consecutive-strings/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/consecutive-strings/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/consecutive-strings/train/cpp"},
+      {"language": "csharp", "link": "/kata/consecutive-strings/train/csharp"},
+      {"language": "elixir", "link": "/kata/consecutive-strings/train/elixir"},
+      {"language": "haskell", "link": "/kata/consecutive-strings/train/haskell"},
+      {"language": "java", "link": "/kata/consecutive-strings/train/java"},
+      {"language": "javascript", "link": "/kata/consecutive-strings/train/javascript"},
+      {"language": "php", "link": "/kata/consecutive-strings/train/php"},
+      {"language": "python", "link": "/kata/consecutive-strings/train/python"},
+      {"language": "ruby", "link": "/kata/consecutive-strings/train/ruby"},
+      {"language": "typescript", "link": "/kata/consecutive-strings/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Reverse or rotate?",
+      "kataid": "56b5afb4ed1f6d5fb0000991",
+      "kyu": "6 kyu",
+      "katalink": "/kata/reverse-or-rotate"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/reverse-or-rotate/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/reverse-or-rotate/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/reverse-or-rotate/train/cpp"},
+      {"language": "csharp", "link": "/kata/reverse-or-rotate/train/csharp"},
+      {"language": "elixir", "link": "/kata/reverse-or-rotate/train/elixir"},
+      {"language": "haskell", "link": "/kata/reverse-or-rotate/train/haskell"},
+      {"language": "java", "link": "/kata/reverse-or-rotate/train/java"},
+      {"language": "javascript", "link": "/kata/reverse-or-rotate/train/javascript"},
+      {"language": "php", "link": "/kata/reverse-or-rotate/train/php"},
+      {"language": "python", "link": "/kata/reverse-or-rotate/train/python"},
+      {"language": "ruby", "link": "/kata/reverse-or-rotate/train/ruby"},
+      {"language": "typescript", "link": "/kata/reverse-or-rotate/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "up AND down",
+      "kataid": "56cac350145912e68b0006f0",
+      "kyu": "6 kyu",
+      "katalink": "/kata/up-and-down"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Strings","name": "Strings"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/up-and-down/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/up-and-down/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/up-and-down/train/cpp"},
+      {"language": "csharp", "link": "/kata/up-and-down/train/csharp"},
+      {"language": "elixir", "link": "/kata/up-and-down/train/elixir"},
+      {"language": "haskell", "link": "/kata/up-and-down/train/haskell"},
+      {"language": "java", "link": "/kata/up-and-down/train/java"},
+      {"language": "javascript", "link": "/kata/up-and-down/train/javascript"},
+      {"language": "php", "link": "/kata/up-and-down/train/php"},
+      {"language": "python", "link": "/kata/up-and-down/train/python"},
+      {"language": "ruby", "link": "/kata/up-and-down/train/ruby"},
+      {"language": "typescript", "link": "/kata/up-and-down/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Moves in squared strings (II)",
+      "kataid": "56dbe7f113c2f63570000b86",
+      "kyu": "6 kyu",
+      "katalink": "/kata/moves-in-squared-strings-ii"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-ii/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-ii/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-ii/train/cpp"},
+      {"language": "csharp", "link": "/kata/moves-in-squared-strings-ii/train/csharp"},
+      {"language": "haskell", "link": "/kata/moves-in-squared-strings-ii/train/haskell"},
+      {"language": "java", "link": "/kata/moves-in-squared-strings-ii/train/java"},
+      {"language": "javascript", "link": "/kata/moves-in-squared-strings-ii/train/javascript"},
+      {"language": "php", "link": "/kata/moves-in-squared-strings-ii/train/php"},
+      {"language": "python", "link": "/kata/moves-in-squared-strings-ii/train/python"},
+      {"language": "ruby", "link": "/kata/moves-in-squared-strings-ii/train/ruby"},
+      {"language": "typescript", "link": "/kata/moves-in-squared-strings-ii/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Moves in squared strings (I)",
+      "kataid": "56dbe0e313c2f63be4000b25",
+      "kyu": "7 kyu",
+      "katalink": "/kata/moves-in-squared-strings-i"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-i/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-i/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-i/train/cpp"},
+      {"language": "csharp", "link": "/kata/moves-in-squared-strings-i/train/csharp"},
+      {"language": "haskell", "link": "/kata/moves-in-squared-strings-i/train/haskell"},
+      {"language": "java", "link": "/kata/moves-in-squared-strings-i/train/java"},
+      {"language": "javascript", "link": "/kata/moves-in-squared-strings-i/train/javascript"},
+      {"language": "php", "link": "/kata/moves-in-squared-strings-i/train/php"},
+      {"language": "python", "link": "/kata/moves-in-squared-strings-i/train/python"},
+      {"language": "ruby", "link": "/kata/moves-in-squared-strings-i/train/ruby"},
+      {"language": "typescript", "link": "/kata/moves-in-squared-strings-i/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "How Green Is My Valley?",
+      "kataid": "56e3cd1d93c3d940e50006a4",
+      "kyu": "7 kyu",
+      "katalink": "/kata/how-green-is-my-valley"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/how-green-is-my-valley/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/how-green-is-my-valley/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/how-green-is-my-valley/train/cpp"},
+      {"language": "csharp", "link": "/kata/how-green-is-my-valley/train/csharp"},
+      {"language": "elixir", "link": "/kata/how-green-is-my-valley/train/elixir"},
+      {"language": "haskell", "link": "/kata/how-green-is-my-valley/train/haskell"},
+      {"language": "java", "link": "/kata/how-green-is-my-valley/train/java"},
+      {"language": "javascript", "link": "/kata/how-green-is-my-valley/train/javascript"},
+      {"language": "php", "link": "/kata/how-green-is-my-valley/train/php"},
+      {"language": "python", "link": "/kata/how-green-is-my-valley/train/python"},
+      {"language": "ruby", "link": "/kata/how-green-is-my-valley/train/ruby"},
+      {"language": "typescript", "link": "/kata/how-green-is-my-valley/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Reducing by steps",
+      "kataid": "56efab15740d301ab40002ee",
+      "kyu": "6 kyu",
+      "katalink": "/kata/reducing-by-steps"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/reducing-by-steps/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/reducing-by-steps/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/reducing-by-steps/train/cpp"},
+      {"language": "csharp", "link": "/kata/reducing-by-steps/train/csharp"},
+      {"language": "elixir", "link": "/kata/reducing-by-steps/train/elixir"},
+      {"language": "haskell", "link": "/kata/reducing-by-steps/train/haskell"},
+      {"language": "java", "link": "/kata/reducing-by-steps/train/java"},
+      {"language": "javascript", "link": "/kata/reducing-by-steps/train/javascript"},
+      {"language": "php", "link": "/kata/reducing-by-steps/train/php"},
+      {"language": "python", "link": "/kata/reducing-by-steps/train/python"},
+      {"language": "ruby", "link": "/kata/reducing-by-steps/train/ruby"},
+      {"language": "typescript", "link": "/kata/reducing-by-steps/train/typescript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Bubblesort Once",
+      "kataid": "56b97b776ffcea598a0006f2",
+      "kyu": "7 kyu",
+      "katalink": "/kata/bubblesort-once"
+    },
+    "keywords": [
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Mathematics","name": "Mathematics"},
+      {"link": "?tags=Numbers","name": "Numbers"}
+    ],
+    "proglanguages": [
+      {"language": "cpp", "cpplink": "/kata/bubblesort-once/train/cpp"},
+      {"language": "csharp", "link": "/kata/bubblesort-once/train/csharp"},
+      {"language": "javascript", "link": "/kata/bubblesort-once/train/javascript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Find the missing term in an Arithmetic Progression",
+      "kataid": "52de553ebb55d1fca3000371",
+      "kyu": "5 kyu",
+      "katalink": "/kata/find-the-missing-term-in-an-arithmetic-progression"
+    },
+    "keywords": [
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Arithmetic","name": "Arithmetic"},
+      {"link": "?tags=Mathematics","name": "Mathematics"},
+      {"link": "?tags=Numbers","name": "Numbers"}
+    ],
+    "proglanguages": [
+      {"language": "cpp", "link": "/kata/find-the-missing-term-in-an-arithmetic-progression/train/cpp"},
+      {"language": "haskell", "link": "/kata/find-the-missing-term-in-an-arithmetic-progression/train/haskell"},
+      {"language": "javascript", "link": "/kata/find-the-missing-term-in-an-arithmetic-progression/train/javascript"},
+      {"language": "python", "link": "/kata/find-the-missing-term-in-an-arithmetic-progression/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Determine offspring sex based on genes XX and XY chromosomes",
+      "kataid": "56530b444e831334c0000020",
+      "kyu": "8 kyu",
+      "katalink": "/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "java", "link": "/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/train/java"},
+      {"language": "javascript", "link": "/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/train/javascript"},
+      {"language": "python", "link": "/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Square into Squares. Protect trees!",
+      "kataid": "54eb33e5bc1a25440d000891",
+      "kyu": "4 kyu",
+      "katalink": "/kata/square-into-squares-protect-trees"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Mathematics","name": "Mathematics"},
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Numbers","name": "Numbers"},
+      {"link": "?tags=Sequences","name": "Sequences"},
+      {"link": "?tags=Arrays","name": "Arrays"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/square-into-squares-protect-trees/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/square-into-squares-protect-trees/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/square-into-squares-protect-trees/train/cpp"},
+      {"language": "csharp", "link": "/kata/square-into-squares-protect-trees/train/csharp"},
+      {"language": "haskell", "link": "/kata/square-into-squares-protect-trees/train/haskell"},
+      {"language": "java", "link": "/kata/square-into-squares-protect-trees/train/java"},
+      {"language": "javascript", "link": "/kata/square-into-squares-protect-trees/train/javascript"},
+      {"language": "php", "link": "/kata/square-into-squares-protect-trees/train/php"},
+      {"language": "python", "link": "/kata/square-into-squares-protect-trees/train/python"},
+      {"language": "ruby", "link": "/kata/square-into-squares-protect-trees/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Evil or Odious",
+      "kataid": "56fcfad9c7e1fa2472000034",
+      "kyu": "8 kyu",
+      "katalink": "/kata/evil-or-odious"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Mathematics","name": "Mathematics"},
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Numbers","name": "Numbers"}
+    ],
+    "proglanguages": [
+      {"language": "elixir", "link": "/kata/evil-or-odious/train/elixir"},
+      {"language": "javascript", "link": "/kata/evil-or-odious/train/javascript"},
+      {"language": "python", "link": "/kata/evil-or-odious/train/python"},
+      {"language": "ruby", "link": "/kata/evil-or-odious/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Decimal to Factorial and Back",
+      "kataid": "54e320dcebe1e583250008fd",
+      "kyu": "5 kyu",
+      "katalink": "/kata/decimal-to-factorial-and-back"
+    },
+    "keywords": [
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Numbers","name": "Numbers"},
+      {"link": "?tags=Utilities","name": "Utilities"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/decimal-to-factorial-and-back/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/decimal-to-factorial-and-back/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/decimal-to-factorial-and-back/train/cpp"},
+      {"language": "csharp", "link": "/kata/decimal-to-factorial-and-back/train/csharp"},
+      {"language": "haskell", "link": "/kata/decimal-to-factorial-and-back/train/haskell"},
+      {"language": "java", "link": "/kata/decimal-to-factorial-and-back/train/java"},
+      {"language": "javascript", "link": "/kata/decimal-to-factorial-and-back/train/javascript"},
+      {"language": "php", "link": "/kata/decimal-to-factorial-and-back/train/php"},
+      {"language": "python", "link": "/kata/decimal-to-factorial-and-back/train/python"},
+      {"language": "ruby", "link": "/kata/decimal-to-factorial-and-back/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Moduli number system",
+      "kataid": "54db15b003e88a6a480000b9",
+      "kyu": "6 kyu",
+      "katalink": "/kata/moduli-number-system"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Numbers","name": "Numbers"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/moduli-number-system/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/moduli-number-system/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/moduli-number-system/train/cpp"},
+      {"language": "csharp", "link": "/kata/moduli-number-system/train/csharp"},
+      {"language": "haskell", "link": "/kata/moduli-number-system/train/haskell"},
+      {"language": "java", "link": "/kata/moduli-number-system/train/java"},
+      {"language": "javascript", "link": "/kata/moduli-number-system/train/javascript"},
+      {"language": "php", "link": "/kata/moduli-number-system/train/php"},
+      {"language": "python", "link": "/kata/moduli-number-system/train/python"},
+      {"language": "ruby", "link": "/kata/moduli-number-system/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Miles per gallon to kilometers per liter",
+      "kataid": "557b5e0bddf29d861400005d",
+      "kyu": "8 kyu",
+      "katalink": "/kata/miles-per-gallon-to-kilometers-per-liter"
+    },
+    "keywords": [
+      {"link": "?tags=Algorithms","name": "Algorithms"}
+    ],
+    "proglanguages": [
+      {"language": "coffeescript", "coffeescriptlink": "/kata/miles-per-gallon-to-kilometers-per-liter/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/miles-per-gallon-to-kilometers-per-liter/train/cpp"},
+      {"language": "csharp", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/csharp"},
+      {"language": "elixir", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/elixir"},
+      {"language": "java", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/java"},
+      {"language": "javascript", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/javascript"},
+      {"language": "python", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/python"},
+      {"language": "ruby", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Vault experience (1): Enough water for how many days?",
+      "kataid": "576d209bed916d2ea30000f7",
+      "kyu": "7 kyu",
+      "katalink": "/kata/vault-experience-1-enough-water-for-how-many-days"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "csharp", "link": "/kata/vault-experience-1-enough-water-for-how-many-days/train/csharp"},
+      {"language": "javascript", "link": "/kata/vault-experience-1-enough-water-for-how-many-days/train/javascript"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Ease the StockBroker",
+      "kataid": "54de3257f565801d96001200",
+      "kyu": "6 kyu",
+      "katalink": "/kata/ease-the-stockbroker"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Strings","name": "Strings"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/ease-the-stockbroker/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/ease-the-stockbroker/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/ease-the-stockbroker/train/cpp"},
+      {"language": "csharp", "link": "/kata/ease-the-stockbroker/train/csharp"},
+      {"language": "haskell", "link": "/kata/ease-the-stockbroker/train/haskell"},
+      {"language": "java", "link": "/kata/ease-the-stockbroker/train/java"},
+      {"language": "javascript", "link": "/kata/ease-the-stockbroker/train/javascript"},
+      {"language": "php", "link": "/kata/ease-the-stockbroker/train/php"},
+      {"language": "python", "link": "/kata/ease-the-stockbroker/train/python"},
+      {"language": "ruby", "link": "/kata/ease-the-stockbroker/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Correct the date-string",
+      "kataid": "5787628de55533d8ce000b84",
+      "kyu": "7 kyu",
+      "katalink": "/kata/correct-the-date-string"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Parsing","name": "Parsing"},
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Strings","name": "Strings"},
+      {"link": "?tags=Basic%20Language%20Features","name": "Basic Language Features"}
+    ],
+    "proglanguages": [
+      {"language": "csharp", "link": "/kata/correct-the-date-string/train/csharp"},
+      {"language": "javascript", "link": "/kata/correct-the-date-string/train/javascript"},
+      {"language": "php", "link": "/kata/correct-the-date-string/train/php"},
+      {"language": "python", "link": "/kata/correct-the-date-string/train/python"},
+      {"language": "ruby", "link": "/kata/correct-the-date-string/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Time Degrees",
+      "kataid": "5782a87d9fb2a5e623000158",
+      "kyu": "7 kyu",
+      "katalink": "/kata/time-degrees"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "csharp", "link": "/kata/time-degrees/train/csharp"},
+      {"language": "javascript", "link": "/kata/time-degrees/train/javascript"},
+      {"language": "python", "link": "/kata/time-degrees/train/python"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Hidden &quot;Cubic&quot; numbers",
+      "kataid": "55031bba8cba40ada90011c4",
+      "kyu": "6 kyu",
+      "katalink": "/kata/hidden-cubic-numbers"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/hidden-cubic-numbers/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/hidden-cubic-numbers/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/hidden-cubic-numbers/train/cpp"},
+      {"language": "csharp", "link": "/kata/hidden-cubic-numbers/train/csharp"},
+      {"language": "haskell", "link": "/kata/hidden-cubic-numbers/train/haskell"},
+      {"language": "java", "link": "/kata/hidden-cubic-numbers/train/java"},
+      {"language": "javascript", "link": "/kata/hidden-cubic-numbers/train/javascript"},
+      {"language": "php", "link": "/kata/hidden-cubic-numbers/train/php"},
+      {"language": "python", "link": "/kata/hidden-cubic-numbers/train/python"},
+      {"language": "ruby", "link": "/kata/hidden-cubic-numbers/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Integers: Recreation One",
+      "kataid": "55aa075506463dac6600010d",
+      "kyu": "6 kyu",
+      "katalink": "/kata/integers-recreation-one"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Algorithms","name": "Algorithms"},
+      {"link": "?tags=Optimization","name": "Optimization"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/integers-recreation-one/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/integers-recreation-one/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/integers-recreation-one/train/cpp"},
+      {"language": "csharp", "link": "/kata/integers-recreation-one/train/csharp"},
+      {"language": "haskell", "link": "/kata/integers-recreation-one/train/haskell"},
+      {"language": "java", "link": "/kata/integers-recreation-one/train/java"},
+      {"language": "javascript", "link": "/kata/integers-recreation-one/train/javascript"},
+      {"language": "php", "link": "/kata/integers-recreation-one/train/php"},
+      {"language": "python", "link": "/kata/integers-recreation-one/train/python"},
+      {"language": "ruby", "link": "/kata/integers-recreation-one/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Complete The Pattern #3 (Horizontal Image of #2)",
+      "kataid": "557341907fbf439911000022",
+      "kyu": "7 kyu",
+      "katalink": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Loops","name": "Loops"},
+      {"link": "?tags=Control%20Flow","name": "Control Flow"},
+      {"link": "?tags=Basic%20Language%20Features","name": "Basic Language Features"}
+    ],
+    "proglanguages": [
+      {"language": "cpp", "cpplink": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/cpp"},
+      {"language": "csharp", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/csharp"},
+      {"language": "haskell", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/haskell"},
+      {"language": "javascript", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/javascript"},
+      {"language": "python", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/python"},
+      {"language": "ruby", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Convert Integer to Binary",
+      "kataid": "55606aeebf1f0305f900006f",
+      "kyu": "7 kyu",
+      "katalink": "/kata/convert-integer-to-binary"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Binary","name": "Binary"},
+      {"link": "?tags=Numbers","name": "Numbers"},
+      {"link": "?tags=Integers","name": "Integers"}
+    ],
+    "proglanguages": [
+      {"language": "csharp", "link": "/kata/convert-integer-to-binary/train/csharp"},
+      {"language": "javascript", "link": "/kata/convert-integer-to-binary/train/javascript"},
+      {"language": "python", "link": "/kata/convert-integer-to-binary/train/python"},
+      {"language": "ruby", "link": "/kata/convert-integer-to-binary/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Simpson's Rule - Approximate Integration",
+      "kataid": "565abd876ed46506d600000d",
+      "kyu": "6 kyu",
+      "katalink": "/kata/simpsons-rule-approximate-integration"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"}
+    ],
+    "proglanguages": [
+      {"language": "clojure", "clojurelink": "/kata/simpsons-rule-approximate-integration/train/clojure"},
+      {"language": "coffeescript", "coffeescriptlink": "/kata/simpsons-rule-approximate-integration/train/coffeescript"},
+      {"language": "cpp", "cpplink": "/kata/simpsons-rule-approximate-integration/train/cpp"},
+      {"language": "csharp", "link": "/kata/simpsons-rule-approximate-integration/train/csharp"},
+      {"language": "haskell", "link": "/kata/simpsons-rule-approximate-integration/train/haskell"},
+      {"language": "java", "link": "/kata/simpsons-rule-approximate-integration/train/java"},
+      {"language": "javascript", "link": "/kata/simpsons-rule-approximate-integration/train/javascript"},
+      {"language": "php", "link": "/kata/simpsons-rule-approximate-integration/train/php"},
+      {"language": "python", "link": "/kata/simpsons-rule-approximate-integration/train/python"},
+      {"language": "ruby", "link": "/kata/simpsons-rule-approximate-integration/train/ruby"}
+    ]
+  },
+  {
+    "datas": {
+      "kataname": "Every nth array element. (Basic)",
+      "kataid": "5753b987aeb792508d0010e2",
+      "kyu": "7 kyu",
+      "katalink": "/kata/every-nth-array-element-basic"
+    },
+    "keywords": [
+      {"link": "?tags=Fundamentals","name": "Fundamentals"},
+      {"link": "?tags=Arrays","name": "Arrays"}
+    ],
+    "proglanguages": [
+      {"language": "csharp", "link": "/kata/every-nth-array-element-basic/train/csharp"},
+      {"language": "javascript", "link": "/kata/every-nth-array-element-basic/train/javascript"},
+      {"language": "python", "link": "/kata/every-nth-array-element-basic/train/python"},
+      {"language": "ruby", "link": "/kata/every-nth-array-element-basic/train/ruby"}
+    ]
+  }
+]
