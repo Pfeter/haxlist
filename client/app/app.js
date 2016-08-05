@@ -10,11 +10,11 @@ HaxList.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'profile.html',
       controller: 'MainController'
     })
-    .when('/login', {
-      templateUrl: 'index.html',
+    .when('/', {
+      templateUrl: 'login.html',
       controller: 'MainController'
     }).otherwise({
-      redirectTo: '/login'
+      redirectTo: 'google.com'
     });
 }]);
 
@@ -22,19 +22,24 @@ HaxList.factory('Config', function() {
   return {
     testUrl: 'http://localhost:3000/test',
     loginUrl: 'http://localhost:3000/login/google',
-    baseUrl: 'http://localhost:3000/',
-    landingUrl: 'http://localhost:3000/index'
+    baseUrl: 'http://localhost:3000/login',
+    landingUrl: 'http://localhost:3000/index',
+    profileUrl: 'http://localhost:3000/profile'
   };
 });
 
 HaxList.factory('HaxService', function(Config, $http) {
   return {
     connectServer: function() {
-      return $http.get(Config.testUrl);
+      return $http.get(Config.baseUrl);
     },
 
     login: function() {
-      return $http.get('/login/google');
+      return $http.get(Config.loginUrl);
+    }
+
+    logout: function() {
+      return $http.get(Config.baseUrl);
     }
   };
 });
@@ -49,8 +54,10 @@ HaxList.controller('MainController', function($scope, $http, $location, HaxServi
     window.location = Config.landingUrl;
   };
 
-  HaxService.connectServer().success(function(data) {
-    $scope.hackers = data;
-    console.log($scope.hackers);
-  });
+
+
+  // HaxService.connectServer().success(function(data) {
+  //   $scope.hackers = data;
+  //   console.log($scope.hackers);
+  // });
 });
