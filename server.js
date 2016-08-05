@@ -69,11 +69,11 @@ app.use(express.static(__dirname + '/client', {
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get('/',
-  loginCheck.ensureLoggedIn('/login/google'),
-  function(req, res){
-    res.redirect('/lander');
-})
+// app.get('/',
+//   loginCheck.ensureLoggedIn('/login/google'),
+//   function(req, res){
+//     res.redirect('/lander');
+// })
 
 app.get('/test', function(req, res) {
   res.json([
@@ -111,17 +111,15 @@ app.get('/login/google/return',
 app.get('/profile',
   loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
-    res.json({key: req.session,
-              status: "logged in",
+    res.json({status: "logged in",
               id: req.user.id,
               display_name: req.user.displayName,
               email: req.user.emails[0].value,
               gender: req.user.gender});
     return;
   });
-
+// key: req.session,
 app.get('/logout',
-  loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
     req.session.destroy(function (err) {
      res.status(200).redirect('/lander');
