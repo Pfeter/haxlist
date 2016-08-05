@@ -1,0 +1,40 @@
+.navbar {
+  margin: 0;
+}
+
+#codersite {
+  background-color: red;
+}
+
+#stackexchange {
+  background-color: blue;
+  height: 50%;
+}
+
+#relatedsite {
+  background-color: green;
+  height: 50%;
+}
+
+#youtubethumb {
+  background-color: pink;
+}
+
+#footerbar {
+  background-color: purple;
+  margin-top: 0;
+}
+
+#rightpanel, #maincontent {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#pageheader, #headcontainer, #indexhead, .ng-scope {
+  padding: 0;
+}
+
+#lander {
+  background-image: url(bg-1.jpg);
+}
