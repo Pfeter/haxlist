@@ -3,8 +3,10 @@
 require('dotenv').config();
 const fs = require('fs');
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
+
 const compression = require('compression');
 const app = express();
 
@@ -25,16 +27,33 @@ function shouldCompress(req, res) {
   return compression.filter(req, res)
 };
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(compression({filter: shouldCompress}));
-app.get('/', function(req, res) {
-  res.json({"status": "ok",
-            "name": "test",
-            "port": port,
-            "message": "Hy! I'm running and want to send moore data."})
-});
+app.use(express.static(__dirname + '/client', {
+  maxage: '48h'
+}))
 
+
+app.get('/test', function(req, res) {
+  res.json([
+    {
+      name: 'pocok',
+      task: 'backend guru'
+    },
+    {
+      name: 'petya',
+      task: 'dataminer'
+    },
+    {
+      name: 'peet',
+      task: 'visual wizard'
+    }
+  ]);
+});
+app.get('/err', function(req, res, next) {
+  next();
+})
 
 app.listen(port);
 console.log("listening on " + port + "!");

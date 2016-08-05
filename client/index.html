@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="HaxList">
+  <head>
+    <title>HaxList</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="shortcut icon" type="image/png" href="./assets/favicon.png"/> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.js"></script>
+    <script src="../app/app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../assets/css/style.css" type="text/css"> -->
+  </head>
+  <body ng-controller="MainController">
+    <header ng-include="'header.html'"></header>
+    <div class="container">
+      <span>ldsjgslkjghsdkjg</span>
+    </div>
+    <div class="container">
+      <span>vclbjajsgweltkn</span>
+      <div class="container">
+        <table class="table table-condensed table-hover">
+          <thead class="thead-inverse">
+            <tr>
+              <th>name</th>
+              <th>task</th>
+            </tr>
+          </thead>
+          <tbody class="hacker-container">
+            <tr ng-repeat="hacker in haxlist" >
+              <td class="name"> {{hacker.name}} </td>
+              <td class="task"> {{hacker.task}} </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="container">
+      <span>356456thgfhgsgdfg</span>
+    </div>
+    <div class="container-fluid">
+      <footer class="footer text-center">
+        <p class="small">awsomesauce haxlist app</p>
+        <p class="small">stone code design</p>
+      </footer>
+    </div>
+  </body>
+
+</html>
