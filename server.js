@@ -69,11 +69,11 @@ app.use(express.static(__dirname + '/client', {
 app.use(passport.initialize());
 app.use(passport.session());
 
-// app.get('/',
-//   loginCheck.ensureLoggedIn('/login/google'),
-//   function(req, res){
-//     res.redirect('/lander');
-// })
+app.get('/',
+  function(req, res){
+    res.json({"status": "ok"});
+    return;
+})
 
 app.get('/test', function(req, res) {
   res.json([
@@ -103,7 +103,7 @@ app.get('/login/google',
 );
 
 app.get('/login/google/return',
-  passport.authenticate('google', { failureRedirect: '/login' }),
+  passport.authenticate('google', { failureRedirect: '/' }),
   function(req, res) {
     res.redirect('/profile');
   });
@@ -118,11 +118,12 @@ app.get('/profile',
               gender: req.user.gender});
     return;
   });
-// key: req.session,
+
 app.get('/logout',
+  loginCheck.ensureLoggedIn('/login/google'),
   function(req, res){
     req.session.destroy(function (err) {
-     res.status(200).redirect('/lander');
+     res.redirect('/login');
    });
   });
 

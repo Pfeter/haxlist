@@ -30,11 +30,11 @@ HaxList.factory('Config', function() {
 HaxList.factory('HaxService', function(Config, $http) {
   return {
     connectServer: function() {
-      return $http.get(Config.testUrl);
+      return $http.get(Config.baseUrl);
     },
 
     login: function() {
-      return $http.get('/login/google');
+      return $http.get(Config.loginUrl);
     }
   };
 });
