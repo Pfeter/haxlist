@@ -9,8 +9,6 @@ const morgan = require('morgan');
 
 const compression = require('compression');
 const app = express();
-const errs = require('./errors')(app);
-
 
 const port = process.env.PORT || 3000;
 
@@ -38,10 +36,20 @@ app.use(express.static(__dirname + '/client', {
 
 
 app.get('/test', function(req, res) {
-  res.json({"status": "ok",
-            "name": "test",
-            "port": port,
-            "message": "Hy! I'm running and want to send moore data."})
+  res.json([
+    {
+      hacker: 'pocok',
+      task: 'backend guru'
+    },
+    {
+      hacker: 'petya',
+      task: 'dataminer'
+    },
+    {
+      hacker: 'peet',
+      task: 'visual wizard'
+    }
+  ]);
 });
 app.get('/err', function(req, res, next) {
   next();
