@@ -15,7 +15,7 @@
       {"link": "?tags=Strings","name": "Strings"}
     ],
     "proglanguages": [
-      {"language": "cpp", "cpplink": "/kata/string-pyramid/train/cpp"},
+      {"language": "cpp", "link": "/kata/string-pyramid/train/cpp"},
       {"language": "csharp", "link": "/kata/string-pyramid/train/csharp"},
       {"language": "javascript", "link": "/kata/string-pyramid/train/javascript"},
       {"language": "python", "link": "/kata/string-pyramid/train/python"}
@@ -78,9 +78,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/scaling-squared-strings/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/scaling-squared-strings/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/scaling-squared-strings/train/cpp"},
+      {"language": "clojure", "link": "/kata/scaling-squared-strings/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/scaling-squared-strings/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/scaling-squared-strings/train/cpp"},
       {"language": "csharp", "link": "/kata/scaling-squared-strings/train/csharp"},
       {"language": "haskell", "link": "/kata/scaling-squared-strings/train/haskell"},
       {"language": "java", "link": "/kata/scaling-squared-strings/train/java"},
@@ -123,9 +123,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-iv/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-iv/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-iv/train/cpp"},
+      {"language": "clojure", "link": "/kata/moves-in-squared-strings-iv/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/moves-in-squared-strings-iv/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/moves-in-squared-strings-iv/train/cpp"},
       {"language": "csharp", "link": "/kata/moves-in-squared-strings-iv/train/csharp"},
       {"language": "haskell", "link": "/kata/moves-in-squared-strings-iv/train/haskell"},
       {"language": "java", "link": "/kata/moves-in-squared-strings-iv/train/java"},
@@ -147,9 +147,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-iii/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-iii/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-iii/train/cpp"},
+      {"language": "clojure", "link": "/kata/moves-in-squared-strings-iii/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/moves-in-squared-strings-iii/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/moves-in-squared-strings-iii/train/cpp"},
       {"language": "csharp", "link": "/kata/moves-in-squared-strings-iii/train/csharp"},
       {"language": "haskell", "link": "/kata/moves-in-squared-strings-iii/train/haskell"},
       {"language": "java", "link": "/kata/moves-in-squared-strings-iii/train/java"},
@@ -171,9 +171,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/composing-squared-strings/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/composing-squared-strings/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/composing-squared-strings/train/cpp"},
+      {"language": "clojure", "link": "/kata/composing-squared-strings/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/composing-squared-strings/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/composing-squared-strings/train/cpp"},
       {"language": "csharp", "link": "/kata/composing-squared-strings/train/csharp"},
       {"language": "haskell", "link": "/kata/composing-squared-strings/train/haskell"},
       {"language": "java", "link": "/kata/composing-squared-strings/train/java"},
@@ -250,7 +250,7 @@
     ],
     "proglanguages": [
       {"language": "csharp", "link": "/kata/a-needle-in-the-haystack/train/csharp"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/a-needle-in-the-haystack/train/coffeescript"},
+      {"language": "coffeescript", "link": "/kata/a-needle-in-the-haystack/train/coffeescript"},
       {"language": "elixir", "link": "/kata/a-needle-in-the-haystack/train/elixir"},
       {"language": "java", "link": "/kata/a-needle-in-the-haystack/train/java"},
       {"language": "javascript", "link": "/kata/a-needle-in-the-haystack/train/javascript"},
@@ -271,7 +271,7 @@
       {"link": "?tags=Arrays","name": "Arrays"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/calculate-string-rotation/train/clojure"},
+      {"language": "clojure", "link": "/kata/calculate-string-rotation/train/clojure"},
       {"language": "csharp", "link": "/kata/calculate-string-rotation/train/csharp"},
       {"language": "haskell", "link": "/kata/calculate-string-rotation/train/haskell"},
       {"language": "java", "link": "/kata/calculate-string-rotation/train/java"},
@@ -291,9 +291,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/twice-linear/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/twice-linear/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/twice-linear/train/cpp"},
+      {"language": "clojure", "link": "/kata/twice-linear/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/twice-linear/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/twice-linear/train/cpp"},
       {"language": "csharp", "link": "/kata/twice-linear/train/csharp"},
       {"language": "haskell", "link": "/kata/twice-linear/train/haskell"},
       {"language": "java", "link": "/kata/twice-linear/train/java"},
@@ -315,9 +315,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/rotate-for-a-max/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/rotate-for-a-max/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/rotate-for-a-max/train/cpp"},
+      {"language": "clojure", "link": "/kata/rotate-for-a-max/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/rotate-for-a-max/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/rotate-for-a-max/train/cpp"},
       {"language": "csharp", "link": "/kata/rotate-for-a-max/train/csharp"},
       {"language": "elixir", "link": "/kata/rotate-for-a-max/train/elixir"},
       {"language": "haskell", "link": "/kata/rotate-for-a-max/train/haskell"},
@@ -340,9 +340,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/consecutive-strings/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/consecutive-strings/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/consecutive-strings/train/cpp"},
+      {"language": "clojure", "link": "/kata/consecutive-strings/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/consecutive-strings/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/consecutive-strings/train/cpp"},
       {"language": "csharp", "link": "/kata/consecutive-strings/train/csharp"},
       {"language": "elixir", "link": "/kata/consecutive-strings/train/elixir"},
       {"language": "haskell", "link": "/kata/consecutive-strings/train/haskell"},
@@ -365,9 +365,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/reverse-or-rotate/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/reverse-or-rotate/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/reverse-or-rotate/train/cpp"},
+      {"language": "clojure", "link": "/kata/reverse-or-rotate/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/reverse-or-rotate/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/reverse-or-rotate/train/cpp"},
       {"language": "csharp", "link": "/kata/reverse-or-rotate/train/csharp"},
       {"language": "elixir", "link": "/kata/reverse-or-rotate/train/elixir"},
       {"language": "haskell", "link": "/kata/reverse-or-rotate/train/haskell"},
@@ -391,9 +391,9 @@
       {"link": "?tags=Strings","name": "Strings"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/up-and-down/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/up-and-down/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/up-and-down/train/cpp"},
+      {"language": "clojure", "link": "/kata/up-and-down/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/up-and-down/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/up-and-down/train/cpp"},
       {"language": "csharp", "link": "/kata/up-and-down/train/csharp"},
       {"language": "elixir", "link": "/kata/up-and-down/train/elixir"},
       {"language": "haskell", "link": "/kata/up-and-down/train/haskell"},
@@ -416,9 +416,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-ii/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-ii/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-ii/train/cpp"},
+      {"language": "clojure", "link": "/kata/moves-in-squared-strings-ii/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/moves-in-squared-strings-ii/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/moves-in-squared-strings-ii/train/cpp"},
       {"language": "csharp", "link": "/kata/moves-in-squared-strings-ii/train/csharp"},
       {"language": "haskell", "link": "/kata/moves-in-squared-strings-ii/train/haskell"},
       {"language": "java", "link": "/kata/moves-in-squared-strings-ii/train/java"},
@@ -440,9 +440,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/moves-in-squared-strings-i/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/moves-in-squared-strings-i/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/moves-in-squared-strings-i/train/cpp"},
+      {"language": "clojure", "link": "/kata/moves-in-squared-strings-i/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/moves-in-squared-strings-i/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/moves-in-squared-strings-i/train/cpp"},
       {"language": "csharp", "link": "/kata/moves-in-squared-strings-i/train/csharp"},
       {"language": "haskell", "link": "/kata/moves-in-squared-strings-i/train/haskell"},
       {"language": "java", "link": "/kata/moves-in-squared-strings-i/train/java"},
@@ -464,9 +464,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/how-green-is-my-valley/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/how-green-is-my-valley/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/how-green-is-my-valley/train/cpp"},
+      {"language": "clojure", "link": "/kata/how-green-is-my-valley/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/how-green-is-my-valley/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/how-green-is-my-valley/train/cpp"},
       {"language": "csharp", "link": "/kata/how-green-is-my-valley/train/csharp"},
       {"language": "elixir", "link": "/kata/how-green-is-my-valley/train/elixir"},
       {"language": "haskell", "link": "/kata/how-green-is-my-valley/train/haskell"},
@@ -489,9 +489,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/reducing-by-steps/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/reducing-by-steps/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/reducing-by-steps/train/cpp"},
+      {"language": "clojure", "link": "/kata/reducing-by-steps/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/reducing-by-steps/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/reducing-by-steps/train/cpp"},
       {"language": "csharp", "link": "/kata/reducing-by-steps/train/csharp"},
       {"language": "elixir", "link": "/kata/reducing-by-steps/train/elixir"},
       {"language": "haskell", "link": "/kata/reducing-by-steps/train/haskell"},
@@ -516,7 +516,7 @@
       {"link": "?tags=Numbers","name": "Numbers"}
     ],
     "proglanguages": [
-      {"language": "cpp", "cpplink": "/kata/bubblesort-once/train/cpp"},
+      {"language": "cpp", "link": "/kata/bubblesort-once/train/cpp"},
       {"language": "csharp", "link": "/kata/bubblesort-once/train/csharp"},
       {"language": "javascript", "link": "/kata/bubblesort-once/train/javascript"}
     ]
@@ -573,9 +573,9 @@
       {"link": "?tags=Arrays","name": "Arrays"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/square-into-squares-protect-trees/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/square-into-squares-protect-trees/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/square-into-squares-protect-trees/train/cpp"},
+      {"language": "clojure", "link": "/kata/square-into-squares-protect-trees/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/square-into-squares-protect-trees/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/square-into-squares-protect-trees/train/cpp"},
       {"language": "csharp", "link": "/kata/square-into-squares-protect-trees/train/csharp"},
       {"language": "haskell", "link": "/kata/square-into-squares-protect-trees/train/haskell"},
       {"language": "java", "link": "/kata/square-into-squares-protect-trees/train/java"},
@@ -618,9 +618,9 @@
       {"link": "?tags=Utilities","name": "Utilities"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/decimal-to-factorial-and-back/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/decimal-to-factorial-and-back/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/decimal-to-factorial-and-back/train/cpp"},
+      {"language": "clojure", "link": "/kata/decimal-to-factorial-and-back/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/decimal-to-factorial-and-back/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/decimal-to-factorial-and-back/train/cpp"},
       {"language": "csharp", "link": "/kata/decimal-to-factorial-and-back/train/csharp"},
       {"language": "haskell", "link": "/kata/decimal-to-factorial-and-back/train/haskell"},
       {"language": "java", "link": "/kata/decimal-to-factorial-and-back/train/java"},
@@ -642,9 +642,9 @@
       {"link": "?tags=Numbers","name": "Numbers"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/moduli-number-system/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/moduli-number-system/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/moduli-number-system/train/cpp"},
+      {"language": "clojure", "link": "/kata/moduli-number-system/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/moduli-number-system/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/moduli-number-system/train/cpp"},
       {"language": "csharp", "link": "/kata/moduli-number-system/train/csharp"},
       {"language": "haskell", "link": "/kata/moduli-number-system/train/haskell"},
       {"language": "java", "link": "/kata/moduli-number-system/train/java"},
@@ -665,8 +665,8 @@
       {"link": "?tags=Algorithms","name": "Algorithms"}
     ],
     "proglanguages": [
-      {"language": "coffeescript", "coffeescriptlink": "/kata/miles-per-gallon-to-kilometers-per-liter/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/miles-per-gallon-to-kilometers-per-liter/train/cpp"},
+      {"language": "coffeescript", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/cpp"},
       {"language": "csharp", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/csharp"},
       {"language": "elixir", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/elixir"},
       {"language": "java", "link": "/kata/miles-per-gallon-to-kilometers-per-liter/train/java"},
@@ -702,9 +702,9 @@
       {"link": "?tags=Strings","name": "Strings"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/ease-the-stockbroker/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/ease-the-stockbroker/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/ease-the-stockbroker/train/cpp"},
+      {"language": "clojure", "link": "/kata/ease-the-stockbroker/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/ease-the-stockbroker/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/ease-the-stockbroker/train/cpp"},
       {"language": "csharp", "link": "/kata/ease-the-stockbroker/train/csharp"},
       {"language": "haskell", "link": "/kata/ease-the-stockbroker/train/haskell"},
       {"language": "java", "link": "/kata/ease-the-stockbroker/train/java"},
@@ -763,9 +763,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/hidden-cubic-numbers/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/hidden-cubic-numbers/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/hidden-cubic-numbers/train/cpp"},
+      {"language": "clojure", "link": "/kata/hidden-cubic-numbers/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/hidden-cubic-numbers/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/hidden-cubic-numbers/train/cpp"},
       {"language": "csharp", "link": "/kata/hidden-cubic-numbers/train/csharp"},
       {"language": "haskell", "link": "/kata/hidden-cubic-numbers/train/haskell"},
       {"language": "java", "link": "/kata/hidden-cubic-numbers/train/java"},
@@ -788,9 +788,9 @@
       {"link": "?tags=Optimization","name": "Optimization"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/integers-recreation-one/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/integers-recreation-one/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/integers-recreation-one/train/cpp"},
+      {"language": "clojure", "link": "/kata/integers-recreation-one/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/integers-recreation-one/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/integers-recreation-one/train/cpp"},
       {"language": "csharp", "link": "/kata/integers-recreation-one/train/csharp"},
       {"language": "haskell", "link": "/kata/integers-recreation-one/train/haskell"},
       {"language": "java", "link": "/kata/integers-recreation-one/train/java"},
@@ -814,7 +814,7 @@
       {"link": "?tags=Basic%20Language%20Features","name": "Basic Language Features"}
     ],
     "proglanguages": [
-      {"language": "cpp", "cpplink": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/cpp"},
+      {"language": "cpp", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/cpp"},
       {"language": "csharp", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/csharp"},
       {"language": "haskell", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/haskell"},
       {"language": "javascript", "link": "/kata/complete-the-pattern-number-3-horizontal-image-of-number-2/train/javascript"},
@@ -853,9 +853,9 @@
       {"link": "?tags=Fundamentals","name": "Fundamentals"}
     ],
     "proglanguages": [
-      {"language": "clojure", "clojurelink": "/kata/simpsons-rule-approximate-integration/train/clojure"},
-      {"language": "coffeescript", "coffeescriptlink": "/kata/simpsons-rule-approximate-integration/train/coffeescript"},
-      {"language": "cpp", "cpplink": "/kata/simpsons-rule-approximate-integration/train/cpp"},
+      {"language": "clojure", "link": "/kata/simpsons-rule-approximate-integration/train/clojure"},
+      {"language": "coffeescript", "link": "/kata/simpsons-rule-approximate-integration/train/coffeescript"},
+      {"language": "cpp", "link": "/kata/simpsons-rule-approximate-integration/train/cpp"},
       {"language": "csharp", "link": "/kata/simpsons-rule-approximate-integration/train/csharp"},
       {"language": "haskell", "link": "/kata/simpsons-rule-approximate-integration/train/haskell"},
       {"language": "java", "link": "/kata/simpsons-rule-approximate-integration/train/java"},
