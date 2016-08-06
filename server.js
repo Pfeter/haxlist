@@ -118,18 +118,11 @@ app.get('/profile',
   });
 
 app.get('/logout',
-<<<<<<< HEAD
-  loginCheck.ensureLoggedIn('/login/google'),
-  function(req, res){
-    req.session.destroy(function (err) {
-     res.redirect('/login');
-   });
-=======
   function(req, res) {
     req.session.destroy(function(err) {
-      res.status(200).redirect('/lander');
     });
->>>>>>> fbd40629fb1dcd4fb19939d86bf3db96cb9b3224
+    res.redirect('/login');
+
   });
 
 app.listen(port);
